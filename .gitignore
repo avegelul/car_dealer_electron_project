@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+
+# Electron build output
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache
+.npm
+.cache/
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Crash reports
+*.stackdump
+
+# Yarn v2/v3
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
