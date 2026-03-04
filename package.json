@@ -1,6 +1,6 @@
 {
   "name": "avgcar",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "description": "Web Application for University Project",
   "main": "main.js",
   "repository": "https://github.com/avegelul/car_dealer_electron_project",
