@@ -8,15 +8,16 @@ updater.updateElectronApp()
 
 const createWindow = () => {
     const win = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1400,
+        height: 1000,
 
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js')
+            preload: path.join(__dirname, '../electron/preload.js')
         }
     })
 
-    win.loadFile("index.html")
+    win.loadFile("web/index.html")
+    win.loadURL('http://localhost:3000')
 }
 
 app.whenReady().then(() => {
